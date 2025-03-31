@@ -1,4 +1,42 @@
-*.pyc
+# Byte-compiled / cache files
 __pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
 .env
+.env.*
+
+# Config files (real ones)
 config/config.yaml
+
+# Virtual environment folders
+venv/
+.env/
+
+# Output, logs, and data
+outputs/
+*.log
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data folders
+data/raw/
+data/processed/
+
+# Model artifacts
+*.h5
+*.pkl
+*.joblib
+
+# IDE/project files
+.vscode/
+.idea/
+*.code-workspace
